@@ -1,0 +1,72 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordlessAuthApp.Application", "PasswordlessAuthApp.Application\PasswordlessAuthApp.Application.csproj", "{17337E35-D5B1-246A-9BA2-5B8A7DFAB8A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordlessAuthApp.Application.Contracts", "PasswordlessAuthApp.Application.Contracts\PasswordlessAuthApp.Application.Contracts.csproj", "{5DBE1A87-9D13-3335-8432-70DD5F00B145}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordlessAuthApp.DbMigrator", "PasswordlessAuthApp.DbMigrator\PasswordlessAuthApp.DbMigrator.csproj", "{516C3796-0EA1-6E8C-5836-BAC9A93AA0BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordlessAuthApp.Domain", "PasswordlessAuthApp.Domain\PasswordlessAuthApp.Domain.csproj", "{FAFC0240-522E-343E-E0BA-06C6A2037488}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordlessAuthApp.Domain.Shared", "PasswordlessAuthApp.Domain.Shared\PasswordlessAuthApp.Domain.Shared.csproj", "{B58B1EE1-C774-521E-48DB-2078FD66B87F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordlessAuthApp.EntityFrameworkCore", "PasswordlessAuthApp.EntityFrameworkCore\PasswordlessAuthApp.EntityFrameworkCore.csproj", "{9FE4EB57-7FAF-23D9-74EA-A55DE7A20203}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordlessAuthApp.HttpApi", "PasswordlessAuthApp.HttpApi\PasswordlessAuthApp.HttpApi.csproj", "{107E47F3-39A9-DD12-2E73-837EA0522E79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordlessAuthApp.HttpApi.Client", "PasswordlessAuthApp.HttpApi.Client\PasswordlessAuthApp.HttpApi.Client.csproj", "{8B6B8463-1EF6-2525-7EFC-1229ABBB164B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordlessAuthApp.Web", "PasswordlessAuthApp.Web\PasswordlessAuthApp.Web.csproj", "{70D79F8F-3695-7A46-CBEB-AB952B2B6A1E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17337E35-D5B1-246A-9BA2-5B8A7DFAB8A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17337E35-D5B1-246A-9BA2-5B8A7DFAB8A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17337E35-D5B1-246A-9BA2-5B8A7DFAB8A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17337E35-D5B1-246A-9BA2-5B8A7DFAB8A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DBE1A87-9D13-3335-8432-70DD5F00B145}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DBE1A87-9D13-3335-8432-70DD5F00B145}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DBE1A87-9D13-3335-8432-70DD5F00B145}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DBE1A87-9D13-3335-8432-70DD5F00B145}.Release|Any CPU.Build.0 = Release|Any CPU
+		{516C3796-0EA1-6E8C-5836-BAC9A93AA0BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{516C3796-0EA1-6E8C-5836-BAC9A93AA0BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{516C3796-0EA1-6E8C-5836-BAC9A93AA0BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{516C3796-0EA1-6E8C-5836-BAC9A93AA0BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAFC0240-522E-343E-E0BA-06C6A2037488}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAFC0240-522E-343E-E0BA-06C6A2037488}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAFC0240-522E-343E-E0BA-06C6A2037488}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAFC0240-522E-343E-E0BA-06C6A2037488}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B58B1EE1-C774-521E-48DB-2078FD66B87F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B58B1EE1-C774-521E-48DB-2078FD66B87F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B58B1EE1-C774-521E-48DB-2078FD66B87F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B58B1EE1-C774-521E-48DB-2078FD66B87F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FE4EB57-7FAF-23D9-74EA-A55DE7A20203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FE4EB57-7FAF-23D9-74EA-A55DE7A20203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FE4EB57-7FAF-23D9-74EA-A55DE7A20203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FE4EB57-7FAF-23D9-74EA-A55DE7A20203}.Release|Any CPU.Build.0 = Release|Any CPU
+		{107E47F3-39A9-DD12-2E73-837EA0522E79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{107E47F3-39A9-DD12-2E73-837EA0522E79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{107E47F3-39A9-DD12-2E73-837EA0522E79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{107E47F3-39A9-DD12-2E73-837EA0522E79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B6B8463-1EF6-2525-7EFC-1229ABBB164B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B6B8463-1EF6-2525-7EFC-1229ABBB164B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B6B8463-1EF6-2525-7EFC-1229ABBB164B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B6B8463-1EF6-2525-7EFC-1229ABBB164B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70D79F8F-3695-7A46-CBEB-AB952B2B6A1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70D79F8F-3695-7A46-CBEB-AB952B2B6A1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70D79F8F-3695-7A46-CBEB-AB952B2B6A1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70D79F8F-3695-7A46-CBEB-AB952B2B6A1E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7005B7A5-77CD-4C71-A7A8-AA9067A6DC48}
+	EndGlobalSection
+EndGlobal

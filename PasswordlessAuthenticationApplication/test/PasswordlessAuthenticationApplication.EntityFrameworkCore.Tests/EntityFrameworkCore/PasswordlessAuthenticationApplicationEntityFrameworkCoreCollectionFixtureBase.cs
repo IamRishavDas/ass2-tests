@@ -1,0 +1,9 @@
+﻿using PasswordlessAuthenticationApplication.EntityFrameworkCore;
+using Xunit;
+
+namespace PasswordlessAuthenticationApplication.EntityFrameworkCore;
+
+public class PasswordlessAuthenticationApplicationEntityFrameworkCoreCollectionFixtureBase : ICollectionFixture<PasswordlessAuthenticationApplicationEntityFrameworkCoreFixture>
+{
+
+}

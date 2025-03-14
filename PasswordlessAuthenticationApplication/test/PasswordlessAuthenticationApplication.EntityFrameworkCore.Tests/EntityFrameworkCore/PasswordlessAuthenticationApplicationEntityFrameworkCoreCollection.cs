@@ -1,0 +1,9 @@
+﻿using Xunit;
+
+namespace PasswordlessAuthenticationApplication.EntityFrameworkCore;
+
+[CollectionDefinition(PasswordlessAuthenticationApplicationTestConsts.CollectionDefinitionName)]
+public class PasswordlessAuthenticationApplicationEntityFrameworkCoreCollection : ICollectionFixture<PasswordlessAuthenticationApplicationEntityFrameworkCoreFixture>
+{
+
+}

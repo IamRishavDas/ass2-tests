@@ -1,0 +1,15 @@
+﻿{
+  "applications": {
+    "PasswordlessAuthApp.Web": {
+      "type": "dotnet-project",
+      "launchUrl": "https://localhost:44320",
+      "path": "../../../src/PasswordlessAuthApp.Web/PasswordlessAuthApp.Web.csproj",
+      "kubernetesService": ".*-web$",
+      "healthCheckEndpoint": "/health-status",
+      "healthUiEndpoint": "/health-ui",
+      "execution": {
+        "order": 2
+      }
+    }
+  }
+}

@@ -1,0 +1,72 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordlessAuthenticationApplication.Application", "PasswordlessAuthenticationApplication.Application\PasswordlessAuthenticationApplication.Application.csproj", "{919BD501-1CD0-8CE5-EDBC-E8F249E41B7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordlessAuthenticationApplication.Application.Contracts", "PasswordlessAuthenticationApplication.Application.Contracts\PasswordlessAuthenticationApplication.Application.Contracts.csproj", "{4680575D-891A-29EE-7348-4DF6FB829E7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordlessAuthenticationApplication.DbMigrator", "PasswordlessAuthenticationApplication.DbMigrator\PasswordlessAuthenticationApplication.DbMigrator.csproj", "{5DDDCF87-57F8-219F-A3B3-0F64FBF81C0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordlessAuthenticationApplication.Domain", "PasswordlessAuthenticationApplication.Domain\PasswordlessAuthenticationApplication.Domain.csproj", "{A4E76D1B-F158-2575-11D8-E58521DDB73A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordlessAuthenticationApplication.Domain.Shared", "PasswordlessAuthenticationApplication.Domain.Shared\PasswordlessAuthenticationApplication.Domain.Shared.csproj", "{FCDD3D5B-85E7-FBAA-7244-5C9796751EF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordlessAuthenticationApplication.EntityFrameworkCore", "PasswordlessAuthenticationApplication.EntityFrameworkCore\PasswordlessAuthenticationApplication.EntityFrameworkCore.csproj", "{4FBC0752-68BC-E2B2-8417-20704396C33E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordlessAuthenticationApplication.HttpApi", "PasswordlessAuthenticationApplication.HttpApi\PasswordlessAuthenticationApplication.HttpApi.csproj", "{ACE30C13-931E-3D71-6CC5-360A5B060E19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordlessAuthenticationApplication.HttpApi.Client", "PasswordlessAuthenticationApplication.HttpApi.Client\PasswordlessAuthenticationApplication.HttpApi.Client.csproj", "{DD3216B2-E548-6D4D-7957-B482D21943DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordlessAuthenticationApplication.HttpApi.Host", "PasswordlessAuthenticationApplication.HttpApi.Host\PasswordlessAuthenticationApplication.HttpApi.Host.csproj", "{33A9E39E-6FCC-A86E-126F-97DED6977D65}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{919BD501-1CD0-8CE5-EDBC-E8F249E41B7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{919BD501-1CD0-8CE5-EDBC-E8F249E41B7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{919BD501-1CD0-8CE5-EDBC-E8F249E41B7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{919BD501-1CD0-8CE5-EDBC-E8F249E41B7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4680575D-891A-29EE-7348-4DF6FB829E7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4680575D-891A-29EE-7348-4DF6FB829E7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4680575D-891A-29EE-7348-4DF6FB829E7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4680575D-891A-29EE-7348-4DF6FB829E7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DDDCF87-57F8-219F-A3B3-0F64FBF81C0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DDDCF87-57F8-219F-A3B3-0F64FBF81C0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DDDCF87-57F8-219F-A3B3-0F64FBF81C0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DDDCF87-57F8-219F-A3B3-0F64FBF81C0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4E76D1B-F158-2575-11D8-E58521DDB73A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4E76D1B-F158-2575-11D8-E58521DDB73A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4E76D1B-F158-2575-11D8-E58521DDB73A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4E76D1B-F158-2575-11D8-E58521DDB73A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCDD3D5B-85E7-FBAA-7244-5C9796751EF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCDD3D5B-85E7-FBAA-7244-5C9796751EF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCDD3D5B-85E7-FBAA-7244-5C9796751EF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCDD3D5B-85E7-FBAA-7244-5C9796751EF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FBC0752-68BC-E2B2-8417-20704396C33E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FBC0752-68BC-E2B2-8417-20704396C33E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FBC0752-68BC-E2B2-8417-20704396C33E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FBC0752-68BC-E2B2-8417-20704396C33E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACE30C13-931E-3D71-6CC5-360A5B060E19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACE30C13-931E-3D71-6CC5-360A5B060E19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACE30C13-931E-3D71-6CC5-360A5B060E19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACE30C13-931E-3D71-6CC5-360A5B060E19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD3216B2-E548-6D4D-7957-B482D21943DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD3216B2-E548-6D4D-7957-B482D21943DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD3216B2-E548-6D4D-7957-B482D21943DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD3216B2-E548-6D4D-7957-B482D21943DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33A9E39E-6FCC-A86E-126F-97DED6977D65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33A9E39E-6FCC-A86E-126F-97DED6977D65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33A9E39E-6FCC-A86E-126F-97DED6977D65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33A9E39E-6FCC-A86E-126F-97DED6977D65}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F919185E-D9A7-45C1-96F4-E4AE7212FAB4}
+	EndGlobalSection
+EndGlobal

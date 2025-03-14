@@ -1,0 +1,8 @@
+﻿using Volo.Abp;
+
+namespace PasswordlessAuthenticationApplication.EntityFrameworkCore;
+
+public abstract class PasswordlessAuthenticationApplicationEntityFrameworkCoreTestBase : PasswordlessAuthenticationApplicationTestBase<PasswordlessAuthenticationApplicationEntityFrameworkCoreTestModule>
+{
+
+}
