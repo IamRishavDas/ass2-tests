@@ -1,0 +1,25 @@
+﻿{
+  "applications": {
+    "PasswordlessAuthApp.HttpApi.Host": {
+      "type": "dotnet-project",
+      "launchUrl": "https://localhost:44349",
+      "path": "../../../src/PasswordlessAuthApp.HttpApi.Host/PasswordlessAuthApp.HttpApi.Host.csproj",
+      "kubernetesService": ".*-httpapihost$",
+      "healthCheckEndpoint": "/health-status",
+      "healthUiEndpoint": "/health-ui",
+      "execution": {
+        "order": 4
+      }
+    },
+    "PasswordlessAuthApp.Angular": {
+      "type": "cli",
+      "workingDirectory": "../../../angular",
+      "startCommand": "./start.ps1",
+      "launchUrl": "http://localhost:4200",
+      "kubernetesService": ".*-angular$",
+      "execution": {
+        "order": 2
+      }    
+    }
+  }
+}
